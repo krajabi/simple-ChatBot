@@ -53,15 +53,15 @@ function bot(data,socket,questionNum) {
   if (questionNum == 0) {
   answer= 'Hello ' + input + ' :-)';// output response
   waitTime =2000;
-  question = 'How old are you?';			    	// load next question
+  question = 'where do you go to school?';			    	// load next question
   }
   else if (questionNum == 1) {
-  answer= 'Really ' + input + ' Years old? So that means you where born in: ' + (2018-parseInt(input));// output response
+  answer= 'WOW!' + input + ' ?  So jealous. I wish I could go there!';// output response
   waitTime =2000;
   question = 'Where do you live?';			    	// load next question
   }
   else if (questionNum == 2) {
-  answer= ' Cool! I have never been to ' + input+'.';
+  answer= 'Me too. I like it here in '  + input+'.';
   waitTime =2000;
   question = 'Whats your favorite Color?';			    	// load next question
   }
